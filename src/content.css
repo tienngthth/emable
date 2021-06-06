@@ -1,0 +1,21 @@
+.custom-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    width: 350px;
+    right: 105px;
+    top: 0px;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: white; 
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 2px 8px -1px rgba(105,105,105,0.7);
+    -moz-box-shadow: 0px 2px 8px -1px rgba(105,105,105,0.7);
+    box-shadow: 0px 2px 8px -1px rgba(105,105,105,0.7);
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;  
+    padding: 20px;
+    width: 80%;
+  }
